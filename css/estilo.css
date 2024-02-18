@@ -1,0 +1,124 @@
+header {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+
+}
+
+nav {
+  float: left;
+  top: -5px;
+  font-size: 1px;
+  width:10000px;
+  height:50px;
+  position: relative;
+  right: 10px;
+  left: -40px;
+  
+  
+}
+a:hover {
+  color: white;
+  font-size: 18px;
+  text-align: white;
+ 
+}
+a:active {
+  color: white;
+  font-size: 18px;
+  text-align: white;
+ 
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+  
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  
+
+}
+nav ul li:hover {
+  background: #009159;
+}
+.precio_producto{
+  font-size: 22px;
+
+}
+iframe{
+    width: 100%;
+    
+}
+.caja{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    text-align: center;
+
+    
+}
+.caja_informacion{
+    color: white;
+    background-color: orange; 
+    
+}
+
+.titulo_producto{
+  padding: 20px 10px;
+  background-color: rgba(255, 60, 0, 0.911);
+  color: white;
+  border-radius: 4px;
+  width:450px;
+  height:35px;
+  text-align: center;
+  position: relative;
+  right: 50px;
+  left: 20px;
+  font-family: Arial, sans-serif;
+}
+.fondo, .clasex{
+    background-color: blue;
+}
+.boton_producto {
+  padding: 15px 55px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  top: -10px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+.boton_producto:hover {
+  background-color: #18553c;
+  font-family: Arial, sans-serif;
+}
+.boton_producto:active {
+  background-color: #18553c;
+  font-family: Arial, sans-serif;
+ 
+}
+h2{
+  font-family: Arial, sans-serif;
+}
+p{
+  font-family: Arial, sans-serif;
+}
+div{
+  font-family: Arial, sans-serif;
+}
